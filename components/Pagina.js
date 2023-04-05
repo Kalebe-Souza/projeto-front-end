@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 
 const Pagina = (props) => {
 
-    console.log(props);
+    //console.log(props);
 
 
     return (
