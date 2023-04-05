@@ -1,6 +1,7 @@
 import React from 'react'
 import Pagina from '../components/Pagina'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 const array = () => {
   
@@ -26,17 +27,20 @@ const array = () => {
   // Objeto
   // Char
   
-  const carros = ['astra', 'opala', 'uno', 'ka', 'omega']
+  const carros = ['astra', 'opala', 'uno', 'doblo', 'omega']
 
   return (
     
     <>
       <Pagina titulo="Array" >
-        <ol>
-          {carros.map(item => (
-            <li>{item}</li>
-          ))}
-        </ol>
+        <Container>
+          <p>{carros[0]}</p>
+          <p>{carros[1]}</p>
+          <p>{carros[2]}</p>
+          <p>{carros[3]}</p>
+          <p>{carros[4]}</p>
+          <p>{carros[5]}</p>
+        </Container>
 
         
 
